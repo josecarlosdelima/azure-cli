@@ -11,7 +11,9 @@ addons:
       - libssl-dev
       - libffi-dev
       - python-dev
-install: pip install tox
+install: 
+  - pip install tox
+  - pip install azdev
 cache: pip
 jobs:
   include:
